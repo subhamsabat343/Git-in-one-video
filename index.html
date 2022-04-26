@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+    <title>The Titel</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- <style>
+        p{
+        color:blue
+        }
+    </style> -->
+</head>
+
+<body>
+
+    <!-- <div id='colorbox'></div>
+    <div id='redbox'></div> -->
+      <!-- <div id="sprite"></div> -->
+        <!-- <img src="sprite.png"  alt="blank" height="500px" width="500px"> -->
+   
+    <!-- <div id='colorbox' >
+        style="border:1px solid yellow" 
+        <p>
+            this is parent body.
+        </p> -->
+    <!-- <div id='child'>
+            <p>this is child text</p>
+        </div> -->
+    </div>
+    <!-- <h1 id="abc" class="old" >Family Names</h1>
+    <hr>
+     <p style="color:pink;font-size:20px;">my name is subham sabat</p> 
+    <p id="ask">Subham sabat</p>
+    <hr>
+    <p>omm prakash sabat</p>
+    <hr>
+    <p>pradeep kumar sabat</p>
+    <hr>
+    <p>mamata sabat</p>
+    <hr>
+    <p class="old">Artatrana sabat</p>
+    <hr>
+    <p class="old">prafulla kumari sabat</p>
+    <hr> -->
+
+    <h1>my name is subham</h1>
+    <div id="text">
+        <p>
+
+            SQL> create table supplier_202010326(supplier_id varchar2(20) constraint pk5_id primary key,sname
+            varchar2(20),saddress varchar2(20));
+
+            Tablecreated.
+
+            SQL> create table parts_202010326 (pno varchar2(20) constraint pk6_id primary key,pname varchar2(20),cost
+            number(3));
+
+            Table created.
+
+            SQL> select 8 from supplier_202010326;
+
+            no rows selected
+
+            SQL> select * from supplier_202010326;
+
+            no rows selected
+
+            SQL> create table sales_202010326(supp_id varchar2(20) not null,pnumber number(3) not null,quality
+            number(3));
+
+            Table created.
+
+            SQL> desc sales_202010326;
+            Name Null? Type
+            ----------------------------------------- -------- ----------------------------
+            SUPP_ID NOT NULL VARCHAR2(20)
+            PNUMBER NOT NULL NUMBER(3)
+            QUALITY NUMBER(3)
+
+            SQL> desc supplier_202010326;
+            Name Null? Type
+            ----------------------------------------- -------- ----------------------------
+            SUPPLIER_ID NOT NULL VARCHAR2(20)
+            SNAME VARCHAR2(20)
+            SADDRESS VARCHAR2(20)
+
+            SQL> desc parts_202010326;
+            Name Null? Type
+            ----------------------------------------- -------- ----------------------------
+            PNO NOT NULL VARCHAR2(20)
+            PNAME VARCHAR2(20)
+            COST NUMBER(3)
+
+            SQL> insert into supplier_202010326 values(s_101,Aanurag,bangalore);
+            insert into supplier_202010326 values(s_101,Aanurag,bangalore)
+            *
+            ERROR at line 1:
+            ORA-00984: column not allowed here
+
+
+            SQL>
+            SQL> insert into supplier_202010326 values('s_101','Aanurag','bangalore');
+
+            1 row created.
+
+            SQL> insert into supplier_202010326 values('s_103','Sikha','new delhi');
+
+            1 row created.
+
+            SQL> select * from tab;
+
+            TNAME TABTYPE CLUSTERID
+            ------------------------------ ------- ----------
+            REGIONS TABLE
+            COUNTRIES TABLE
+            LOCATIONS TABLE
+            DEPARTMENTS TABLE
+            JOBS TABLE
+            EMPLOYEES TABLE
+            JOB_HISTORY TABLE
+            EMP_DETAILS_VIEW VIEW
+            DEPT TABLE
+            EMP TABLE
+            BONUS TABLE
+
+            TNAME TABTYPE CLUSTERID
+            ------------------------------ ------- ----------
+            SALGRADE TABLE
+            BIN$GeJNttQGRoi8GeQhJwdb2g==$0 TABLE
+            BIN$SLKBk6qiTVuggUhTXH68zw==$0 TABLE
+            BIN$F1ynSbeYQEWn/66KjaOrRA==$0 TABLE
+            BIN$W2RM/zmETIGzQXZTGqzCtw==$0 TABLE
+            BIN$xL4xnTqiQO+8mE80xviUVQ==$0 TABLE
+            BIN$xrMvsEI6TaW+oLuc61T5VA==$0 TABLE
+            BIN$523ZlXcsRcuZmF/bSSxh/w==$0 TABLE
+            BIN$SFGU90iITkudv7JXQJt+Qw==$0 TABLE
+            BIN$tmmvL8LLQP+uUPx5UQzwDQ==$0 TABLE
+            BIN$ucIqhUYBS1ekdCIQfrpEew==$0 TABLE
+
+            TNAME TABTYPE CLUSTERID
+            ------------------------------ ------- ----------
+            BIN$2KHWctEkTfOApljvQLizTQ==$0 TABLE
+            DEPARTMENT TABLE
+            BIN$UBzwtSY+RJicNlNBoUYRAg==$0 TABLE
+            EMPLOYEE TABLE
+            DEPT_LOCATIONS TABLE
+            PROJECT TABLE
+            DEPENDENT TABLE
+            WORKS_ON TABLE
+            SUPPLIER_326 TABLE
+            PARTS_326 TABLE
+            SUPPLIER_202010326 TABLE
+
+        </p>
+    </div>
+
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+   <!-- <a href="http://www.facebook.com" target="_blank">FaceBook</a> -->
+    <!-- <div id="shadow">
+        <p>
+            TNAME TABTYPE CLUSTERID
+            ------------------------------ ------- ----------
+            PARTS_202010326 TABLE
+            SALES_202010326 TABLE
+
+            35 rows selected.
+
+            SQL> drop table supplier_326;
+
+            Table dropped.
+
+            SQL> drop table parts_326;
+
+            Table dropped.
+
+            SQL> insert into supplier_326 values('s_101','Aanurag','bangalore');
+
+            1 row created.
+
+            SQL> insert into supplier_326 values('s_103','Sikha','new delhi');
+
+            1 row created.
+
+
+            SQL> insert into supplier_326 values('s_201','Mona','harayana');
+
+            1 row created.
+
+            SQL> insert into supplier_326 values('s_202','Heaven','bhopal');
+
+            1 row created.
+
+            SQL> insert into supplier_326 values('s_204','Likhit','kochi');
+
+            1 row created.
+
+            SQL> insert into supplier_326 values('s_205','Michael','karaikal');
+
+            1 row created.
+
+            SQL> select * from supplier_326;
+
+            SUPPLIER_ID SNAME SADDRESS
+            -------------------- -------------------- --------------------
+            s_101 Aanurag bangalore
+            s_103 Sikha new delhi
+            s_201 Mona harayana
+            s_202 Heaven bhopal
+            s_204 Likhit kochi
+            s_205 Michael karaikal
+
+            6 rows selected.
+
+            SQL> insert into parts_326 values('11','Bolt',25);
+
+            1 row created.
+
+            SQL> insert into parts_326 values('12','Nut',30);
+
+            1 row created.
+
+            SQL> insert into parts_326 values('13','Lever',45);
+
+            1 row created.
+
+            SQL> insert into parts_326 values('14','cutter',80);
+
+            1 row created.
+
+            SQL> select * from parts_326;
+
+            PNO PNAME COST
+            -------------------- -------------------- ----------
+            11 Bolt 25
+            12 Nut 30
+            13 Lever 45
+            14 cutter 80
+
+
+
+            SQL> insert into sales_326 values('s_201','12',100);
+
+            1 row created.
+
+            SQL> insert into sales_326 values('s_205','11',50);
+
+            1 row created.
+
+            SQL>
+            SQL> insert into sales_326 values('s_205','11',50);
+
+            1 row created.
+
+            SQL> insert into sales_326 values('s_202','12',70);
+
+            1 row created.
+
+            SQL> insert into sales_326 values('s_103','13',60);
+
+            1 row created.
+
+
+        </p>
+    </div> -->
+
+
+    <!-- <div class="margin">
+        <p>
+            SQL>
+            SQL>
+            SQL> insert into sales_326 values('s_201','1',55);
+            insert into sales_326 values('s_201','1',55)
+            *
+            ERROR at line 1:
+            ORA-02291: integrity constraint (HR.PK__PL) violated - parent key not found
+
+
+            SQL> insert into sales_326 values('s_201','13',55);
+
+            1 row created.
+
+            SQL> select * from sales_326;
+
+            SUPP_ID PNUMBER QUANTITY
+            -------------------- -------------------- ----------
+            s_201 12 100
+            s_205 11 50
+            s_205 11 50
+            s_202 12 70
+            s_103 13 60
+            s_201 13 55
+
+            6 rows selected.
+
+            SQL> delete from supplier_326 where saddress='kochi';
+
+            1 row deleted.
+
+            SQL> create view emp_view as select empno,ename,mgr from emp;
+
+            View created.
+
+            SQL> select * from emp_view;
+
+            EMPNO ENAME MGR
+            ---------- ---------- ----------
+            7839 KING
+            7698 BLAKE 7839
+            7782 CLARK 7839
+            7566 JONES 7839
+            7788 SCOTT 7566
+            7902 FORD 7566
+            7369 SMITH 7902
+            7499 ALLEN 7698
+            7521 WARD 7698
+            7654 MARTIN 7698
+            7844 TURNER 7698
+
+            EMPNO ENAME MGR
+            ---------- ---------- ----------
+            7876 ADAMS 7788
+            7900 JAMES 7698
+            7934 MILLER 7782
+
+            14 rows selected.
+
+            SQL> select deptno,max(sal),min(sal),sum(sal),avg(sal) from emp group by deptno,sal having sal>1000;
+
+            DEPTNO MAX(SAL) MIN(SAL) SUM(SAL) AVG(SAL)
+            ---------- ---------- ---------- ---------- ----------
+            10 5000 5000 5000 5000
+            20 2975 2975 2975 2975
+            10 2450 2450 2450 2450
+            20 3000 3000 6000 3000
+            30 1250 1250 2500 1250
+            20 1100 1100 1100 1100
+            10 1300 1300 1300 1300
+            30 2850 2850 2850 2850
+            30 1600 1600 1600 1600
+            30 1500 1500 1500 1500
+
+            10 rows selected.
+
+            SQL> alter table supplier_326 modify supplier_id varchar2(20);
+
+            Table altered.
+
+            SQL> desc supplier_326;
+            Name Null? Type
+            ----------------------------------------- -------- ----------------------------
+            SUPPLIER_ID NOT NULL VARCHAR2(20)
+            SNAME VARCHAR2(20)
+            SADDRESS VARCHAR2(20)
+
+
+
+            SQL> select * from supplier_326;
+
+            SUPPLIER_ID SNAME SADDRESS
+            -------------------- -------------------- --------------------
+            s_101 Aanurag bangalore
+            s_103 Sikha new delhi
+            s_201 Mona harayana
+            s_202 Heaven bhopal
+            s_205 Michael karaikal
+
+            SQL> select ascii('P'),ascii('k'),ascii('r'),ascii('T'),ascii('N') from dual;
+
+            ASCII('P') ASCII('K') ASCII('R') ASCII('T') ASCII('N')
+            ---------- ---------- ---------- ---------- ----------
+            80 107 114 84 78
+
+            SQL> selectsupplier_id,pno,pname from supplier_326 s,parts_326 p,sales_326 sa where
+            s.supplier_id=sa.supp_id,p.pno=sa.pnumber;
+            SP2-0734: unknown command beginning "selectsupp..." - rest of line ignored.
+            SQL> SELECT PNUMBER,COUNT(SUPP_ID) FROM SALES_3266 GROUP BY PNUMBER;
+            SELECT PNUMBER,COUNT(SUPP_ID) FROM SALES_3266 GROUP BY PNUMBER
+            *
+            ERROR at line 1:
+            ORA-00942: table or view does not exist
+
+
+            SQL>
+            SQL>
+            SQL> select ascii('P'),ascii('k'),ascii('r'),ascii('T'),ascii('N') from dual;
+
+            ASCII('P') ASCII('K') ASCII('R') ASCII('T') ASCII('N')
+            ---------- ---------- ---------- ---------- ----------
+            80 107 114 84 78
+
+            SQL> select pnumber,count(supp_id) from sales_326 group by pnumber;
+
+            PNUMBER COUNT(SUPP_ID)
+            -------------------- --------------
+            13 2
+            12 2
+            11 2
+
+
+
+            SQL> select count(supplier_id) from supplier_326 group by supplier_id;
+
+            COUNT(SUPPLIER_ID)
+            ------------------
+            1
+            1
+            1
+            1
+            1
+
+            SQL> SELECT SU.SUPPLIER_ID,SU.SNAME,S.PNUMBER FROM SUPPLIER_326 SU INNER JOIN SALES_326 S ON
+            SU.SUPPLIER_ID=S.SUPP_ID GROUP BY S.PNUMBER,SU.SUPPLIER_ID,SU.SNAME;
+
+            SUPPLIER_ID SNAME PNUMBER
+            -------------------- -------------------- --------------------
+            s_201 Mona 13
+            s_201 Mona 12
+            s_202 Heaven 12
+            s_103 Sikha 13
+            s_205 Michael 11
+
+
+
+            SQL> select pnumber,count(supp_id) from sales_326 group by pnumber;
+
+            PNUMBER COUNT(SUPP_ID)
+            -------------------- --------------
+            13 2
+            12 2
+            11 2
+
+            SQL> spool off
+            SQL> select supplier_id,sname from supplier_326 where supplier_id=any(select supp_id from sales_326 s inner
+            join parts_326 p on s.pnumber=p.pno where p.pname='bolt' or p.pname='lever');
+
+            no rows selected
+
+            SQL> spool off
+            SQL> select sname from supplier_326 where supplier_id= any(select supp_id from parts_326 join sales_326 on
+            pno=pnumber where pno=(select pnumber from sales_326 join parts_326 on pno=pnumber where supp_id= (select
+            supplier_id from supplier_326 where sname='Heaven' )));
+
+            SNAME
+            --------------------
+            Heaven
+            Mona
+
+            SQL> spool off
+        </p>
+    </div> -->
+</body>
+<!-- <style>
+    p{
+    color:olivedrab
+    }
+</style> -->
+
+</html>
